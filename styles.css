@@ -1,6 +1,11 @@
 h1 {
     color: navy;
     margin-left: 20px;
+    border: dotted;
+    border-color: #00E6FF;
+    border-width: 5px;
+    padding: 10px;
+
 }
 
 h3 {
