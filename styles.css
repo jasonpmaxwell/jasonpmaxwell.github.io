@@ -2,8 +2,11 @@ h1 {
     color: navy;
     margin-left: 20px;
     border: dotted;
+    padding-right: 30px;
     border-color: #00E6FF;
+    /*
     border-width: 5px;
+    */
     padding: 10px;
 
 }
@@ -21,4 +24,65 @@ img {
 
 p {
     margin-left: 20px;
+}
+
+/* 
+<!-- div {
+    display: inline;
+    color: chocolate;
+}
+*/
+
+-- > div {
+    width: 200px;
+    height: 200px;
+    display: block;
+    position: relative;
+}
+
+div::after {
+    content: "";
+    background: url(fractal_green.jpg);
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+p.1 {
+    display: inline;
+}
+
+/* 
+body {
+    background-image: url(fractal_green.jpg);
+    background-attachment: fixed;
+}
+
+*/
+
+#mainDiv {
+    height: 300px;
+    width: 200px;
+    position: relative;
+    /*
+    border-bottom: 2px solid #00E6FF;
+    */
+    /*
+    background: #3beadc;
+    */
+}
+
+#borderAll {
+    border-left: 2px solid #00E6FF;
+    border-right: 2px solid #00E6FF;
+    border-bottom: 2px solid #00E6FF;
+    border-top: 2px solid #00E6FF;
+
+    position: absolute;
+    top: 10%;
+    bottom: 0;
 }
