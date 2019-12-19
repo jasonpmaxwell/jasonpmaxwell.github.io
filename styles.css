@@ -1,19 +1,36 @@
 div {}
 
-h1 {}
+h1 {
+    text-align: center;
+    background: #FFFFFF;
+    /*
+    border: 8px solid black;
+    */
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+
+}
 
 head {}
 
 body {
     background-color: antiquewhite;
     padding-left: 15px;
+    background-image: url(leaf_background.png);
+    background-repeat: repeat;
 }
 
 p {
     padding-left: 20px;
+    font-family: cursive;
+    background: #FFFFFF;
+    border: 4px solid black;
 }
 
 img {
     height: 40%;
     width: 40%;
+
 }
