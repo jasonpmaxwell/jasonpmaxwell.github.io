@@ -3,6 +3,7 @@ div {}
 h1 {
     text-align: center;
     background: #FFFFFF;
+    font-family: sans-serif;
     /*
     border: 8px solid black;
     */
@@ -17,6 +18,7 @@ h1 {
 h2 {
     text-align: center;
     background: #FFFFFF;
+    font-family: sans-serif;
     /*
     border: 8px solid black;
     */
@@ -47,6 +49,7 @@ body {
     padding-left: 15px;
     background-image: url(blue_background.jpg);
     background-repeat: repeat;
+    font-family: courier;
 }
 
 p {
@@ -79,7 +82,9 @@ footer {
 
 #borderimg {
     border: 30px solid transparent;
+    /*
     border-image: url(tree_cartoon.png) 18% round;
+    */
     padding: 10px;
     margin: 10px;
 }
@@ -88,5 +93,7 @@ ul {
     font-size: 20px;
     background-color: chartreuse;
     padding: 10px 10px 10px 50px;
+    border: 4px solid black;
+    margin-right: 60%;
 
 }
