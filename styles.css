@@ -114,3 +114,15 @@ a:hover {
     color: blue;
     background-color: greenyellow;
 }
+th{
+    border: 1px solid black;
+}
+
+th, td {
+    padding: 10px;
+    /* background-color: #eee; */
+}
+table{
+   background-color: #eee; 
+}
+
